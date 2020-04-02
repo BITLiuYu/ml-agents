@@ -9,6 +9,7 @@ namespace MLAgents
     /// at regular intervals.
     /// </summary>
     [AddComponentMenu("ML Agents/Decision Requester", (int)MenuGroup.Default)]
+    [RequireComponent(typeof(Agent))]
     public class DecisionRequester : MonoBehaviour
     {
         /// <summary>

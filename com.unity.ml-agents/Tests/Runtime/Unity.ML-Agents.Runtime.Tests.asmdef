@@ -1,0 +1,30 @@
+{
+    "name": "Tests",
+    "references": [
+        "Unity.ML-Agents",
+        "Barracuda",
+        "Unity.ML-Agents.CommunicatorObjects",
+        "Unity.ML-Agents.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Android",
+        "LinuxStandalone64",
+        "LinuxStandaloneUniversal",
+        "macOSStandalone",
+        "WindowsStandalone64"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "System.IO.Abstractions.dll",
+        "System.IO.Abstractions.TestingHelpers.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ]
+}
